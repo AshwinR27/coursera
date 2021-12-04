@@ -1,0 +1,104 @@
+body {
+  font-size: 18px;
+  color: #fff;
+  background-color: #e6f9ff; 
+  font-family: 'Oxygen', sans-serif;
+}
+
+h1 { 
+	font-family: 'Nunito', sans-serif;
+	color:#ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+
+h2 { 
+	font-family: 'Nunito', sans-serif;
+	color:#4c9cb5;
+	font-weight: bold;
+	margin-top: 20px;
+	line-height: .75;
+}
+
+h3 { 
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+}
+
+
+#header-nav {
+	background-color: #4c9cb5;  
+}
+
+#nav-list {
+  margin-top: 10px; 
+}
+#nav-list a { 
+  color: #ffffff;
+  background: #cc1d2e;
+  text-align: center;
+  margin-bottom: 1px;
+}
+
+#nav-list a:hover {
+  background: #690711;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #661a00;
+  background: #cc1d2e;
+}
+
+
+#main-content a {
+	text-decoration: none;
+}
+
+.sectiontxt h3 {
+	padding: 5px 0px 15px 0px ;
+	margin: 10px 0px 0px 0px ;
+	color: #e86b77
+}
+
+div.sectiontxt{
+	margin: 10px;
+	background: #362b75;
+	padding: 15px;
+}
+
+
+
+/******** Large devices ********/
+@media (min-width: 1200px) {
+.navbar-brand 
+h1 {font-size: 2em;}
+h2 { font-size: 1.8em; }
+h3 { font-size: 1.5em; }
+}
+
+/******** Medium devices ********/
+@media (min-width: 992px) and (max-width: 1199px) { 
+.navbar-brand 
+h1 {font-size: 1.8em;}
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.3em; }
+}
+
+/******** Small devices ********/
+@media (min-width: 768px) and (max-width: 991px) { 
+.navbar-brand 
+h1 {font-size: 1.5em;}
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
+
+/******* Extra small devices ********/
+@media (max-width: 767px) { 
+.navbar-brand 
+h1 {font-size: 1.5em;} 
+h2 { font-size: 1.3em; }
+h3 { font-size: 1.1em; }
+}
